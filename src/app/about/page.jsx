@@ -7,7 +7,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg4 from '../../../public/images/Smoke.png'
+import aboutImg4 from '../../../public/images/Smoke-1.png'
 import { useSideHeader } from "@/utils/SideHeaderToggle";
 import { useEffect } from "react";
 
@@ -15,20 +15,20 @@ import { useEffect } from "react";
 
 const funfaceData = [
   {
-    title: 'Global Happy Clients',
-    factNumber: '40',
+    title: 'Global Clients',
+    factNumber: '5',
   },
   {
     title: 'Project Completed',
-    factNumber: '50',
+    factNumber: '10',
   },
   {
-    title: 'Team Members',
-    factNumber: '245',
+    title: 'Coperative Work',
+    factNumber: '5',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Code Crafted',
+    factNumber: '15',
   },
 ];
 

@@ -38,20 +38,20 @@ const heroSocialLinks = [
 // FunFact Data
 const funfaceData = [
   {
-    title: 'Solutions Delivered',
-    factNumber: '40',
+    title: 'Global clients',
+    factNumber: '5',
   },
   {
-    title: 'Clients Served',
-    factNumber: '50',
+    title: 'Projects Completed',
+    factNumber: '10',
   },
   {
     title: 'Cooperative Work',
-    factNumber: '245',
+    factNumber: '5',
   },
   {
     title: 'Code Crafted',
-    factNumber: '550',
+    factNumber: '15',
   },
 ];
 // Portfolio Data
@@ -80,7 +80,7 @@ const portfolioData = [
     href: '/portfolio/Plano',
     src: '/portfolio/mob4.png',
   },
-  
+
 
 ];
 

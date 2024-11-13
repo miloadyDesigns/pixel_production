@@ -21,7 +21,7 @@ export default function PageHeading({ title, videoSrc, pageLinkText }) {
           left: 0,
           zIndex: 0,
         }}
-      
+
       >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
@@ -29,7 +29,7 @@ export default function PageHeading({ title, videoSrc, pageLinkText }) {
 
       <Div className="container">
         <Div className="cs-page_heading_in">
-          <h1 className="cs-page_title cs-font_50 cs-white_color">{title}</h1>
+          <h1 className="cs-page_title cs-font_50 cs-white_color xs:text-lg lg:text-5xl">{title}</h1>
           <ol className="breadcrumb text-uppercase">
             <li className="breadcrumb-item">
               <Link href="/">Home</Link>

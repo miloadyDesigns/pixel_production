@@ -6,7 +6,7 @@ import Spacing from "@/app/ui/Spacing";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
-import imgUrl from '../../../../public/blog/blog3/2.webp';
+import imgUrl from '../../../../public/blog/blog4/5.png';
 import { useEffect } from "react";
 import { useSideHeader } from "@/utils/SideHeaderToggle";
 
@@ -64,7 +64,7 @@ export default function BlogDetailsPage() {
                                 </p>
                                 <Div className="row">
                                     <Div className="col-md-12">
-                                        <img src="/blog/blog3/1.webp" alt="Blog Details" className="cs-radius_15 w-100" />
+                                        <img src="/blog/blog4/1.png" alt="Blog Details" className="cs-radius_15 w-100" />
                                         <Div className="cs-height_45 cs-height_lg_45" />
                                     </Div>
                                 </Div>
@@ -99,7 +99,12 @@ export default function BlogDetailsPage() {
                                     <b>Improved performance, </b> particularly in resource-heavy applications.
                                     <br />
                                 </p>
-
+                                <Div className="row">
+                                    <Div className="col-md-12">
+                                        <img src="/blog/blog4/3.png" alt="Blog Details" className="cs-radius_15 w-100" />
+                                        <Div className="cs-height_45 cs-height_lg_45" />
+                                    </Div>
+                                </Div>
                                 <h3>Native Compatibility with Kotlin, Objective-C, Java, and Swift</h3>
                                 <p>React Native has always strived for better integration with native codebases, and React Native 0.75 takes this to the next level by enhancing its compatibility with key native programming languages: Kotlin, Objective-C, Java, and Swift.
                                     <br />
@@ -123,7 +128,7 @@ export default function BlogDetailsPage() {
                                 </p>
                                 <Div className="row">
                                     <Div className="col-md-12">
-                                        <img src="/blog/blog3/3.webp" alt="Blog Details" className="cs-radius_15 w-100" />
+                                        <img src="/blog/blog4/4.png" alt="Blog Details" className="cs-radius_15 w-100" />
                                         <Div className="cs-height_45 cs-height_lg_45" />
                                     </Div>
                                 </Div>
