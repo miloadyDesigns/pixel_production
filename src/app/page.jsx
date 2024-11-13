@@ -80,244 +80,7 @@ const portfolioData = [
     href: '/portfolio/Plano',
     src: '/portfolio/mob4.png',
   },
-  {
-    title: 'Airpro System',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Airpro-Systems.png',
-  },
-  {
-    title: 'Art e Gallery',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Art-e-Gallery.png',
-  },
-  {
-    title: 'Catseyepest',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Catseyepest.png',
-  },
-  {
-    title: 'Closet Candy',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Closet-Candy.png',
-  },
-  {
-    title: 'Equinox',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Equinox.png',
-  },
-  {
-    title: 'New Songs of Praise',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/New-Songs-of-Praise.png',
-  },
-  {
-    title: 'OraJuice Skin Care',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Ora-Juice-Skin-Care.png',
-  },
-  {
-    title: 'Page Production',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Page-Prod-Media.png',
-  },
-  {
-    title: 'Save Homeless Animals',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Save-Homeless-Animals.png',
-  },
-  {
-    title: 'Shopdiva Dolls Boutique',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Shopdiva-Dolls-Boutique.png',
-  },
-  {
-    title: 'Usdenterprises',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/website/Usdenterprises.png',
-  },
-
-
-  {
-    title: 'Big Manny',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Big-Manny-Logo-White.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Diva Dolls',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Diva-Dolls-Logo.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'EON',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Eon-Logo-01.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'KRW Electric',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/KRW-electronic-company.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Manny Lager',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Manny-Lager-Beer-logo-PNG.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Mantastic',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Man-Tastic-logo-Black-PNG.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'No Smoking',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/No-Smoking-png.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Organic Life',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Oraganic-Life.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Quick Crystal',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Quick-Crystal.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Six Figure Club',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Six-Figure-Club-Logo-PNG.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Vollmer Design Studio',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/VDS-Vollmer-Design-Studio.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Western Threadz',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/logo/Western-Threadz.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Icon Sportz',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Icon-Sportz.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Shift Juices',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Shift-Juices-&-Food.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Quality 1',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Quality1-Enterprises.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Pezzand Law Group',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Pezzand-Law-Group.png',
-    category: 'logo_design',
-  },
-
-  {
-    title: 'Lotus Psychotherapy Services',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Lotus-Psychotherapy-Services.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Expert Valet',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Expert-Valet.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Dugans Pet Shop',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/statinoary/Dugans-Pet-Shop.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Cedar Cove',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/socialmedia/Cedar-Cove.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Denterprises',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/socialmedia/Denterprises.png',
-    category: 'logo_design',
-  },
-
-  {
-    title: 'Diva Dolls',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/socialmedia/Diva-Dolls.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'Pretty XO',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/socialmedia/Pretty-XO.png',
-    category: 'logo_design',
-  },
-  {
-    title: 'OraJuice',
-    subtitle: 'Preview',
-    href: '#',
-    src: '/portfolio/socialmedia/Ora-Juice.png',
-    category: 'logo_design',
-  },
+  
 
 ];
 
@@ -338,7 +101,7 @@ export default function Home() {
     const line = lineRef.current;
 
     const length = line.getTotalLength();
-    md.add("(min-width:800px)", () => {
+    md.add("(min-width:1820px)", () => {
       gsap.set(line, {
         strokeDasharray: length
       });
@@ -484,7 +247,55 @@ export default function Home() {
         />
       </div>
       {/* End FunFact Section */}
-      <svg className='absolute line xs:hidden lg:block -mt-56 -ml-12' width="2183" height="4021" viewBox="0 0 2183 4021" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* <svg className='absolute line xs:hidden lg:block -mt-64 z-[1] -ml-12' width="2188" height="4431" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 7C115.5 95.1667 435.5 299.449 629 322C895 353 1171.03 81.7382 1348 267C1561.5 490.5 783 974.187 1021.5 1278C1079.98 1352.5 1271 1320.5 1438 1204.5C1605 1088.5 1753 919.336 1911 956C2142 1009.6 2260 1513.5 2119 1710.5C1978 1907.5 1520 2125.5 1055.5 2176.5C632 2223 317.091 2329.5 306 2653C297.034 2914.5 579 3129.99 861 3085C1199.5 3031 1439.16 2958.93 1531.5 3148.5C1692 3478 1531.5 3668.5 1531.5 3756C1531.5 3878.26 1791 3927 1737 4063.5C1708.47 4135.61 1633.76 4172.32 1560 4165.5C1494.14 4159.41 1432.98 4102.61 1366 4088.5C1083.5 4029 1123.32 4316.63 968 4334.5C785.5 4355.5 617.142 4188.75 424 4262.5C341.5 4294 283 4390 278.5 4429.5" stroke="url(#paint0_linear_74_19)" stroke-width="16" ref={lineRef} />
+        <defs>
+          <linearGradient id="paint0_linear_74_19" x1="4.99995" y1="-219" x2="230" y2="4422" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#090909" />
+            <stop offset="0.139177" stop-color="#890A0A" />
+            <stop offset="0.310793" stop-color="#B10E0E" />
+            <stop offset="0.371513" stop-color="white" />
+            <stop offset="0.414915" stop-color="white" />
+            <stop offset="0.461129" stop-color="#B10E0E" />
+            <stop offset="0.505712" stop-color="#890A0A" />
+            <stop offset="0.559438" stop-color="white" />
+            <stop offset="0.593576" stop-color="white" />
+            <stop offset="0.635762" stop-color="#B10E0E" />
+            <stop offset="0.721379" stop-color="#890A0A" />
+            <stop offset="0.803046" stop-color="#B10E0E" />
+            <stop offset="0.864665" stop-color="white" />
+            <stop offset="0.884019" stop-color="white" />
+            <stop offset="0.911208" stop-color="#B10E0E" />
+            <stop offset="0.943865" stop-color="#890A0A" />
+            <stop offset="1" stop-color="#090909" />
+          </linearGradient>
+        </defs>
+      </svg> */}
+      <svg className='absolute line xs:hidden lg:block -mt-60  -ml-12' width="2188" height="4409" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 7C115.5 95.1667 435.5 299.449 629 322C895 353 1171.03 81.7382 1348 267C1561.5 490.5 783 974.187 1021.5 1278C1079.98 1352.5 1271 1320.5 1438 1204.5C1605 1088.5 1753 919.336 1911 956C2142 1009.6 2260 1513.5 2119 1710.5C1978 1907.5 1520 2125.5 1055.5 2176.5C632 2223 317.091 2329.5 306 2653C297.034 2914.5 579 3129.99 861 3085C1199.5 3031 1439.16 2958.93 1531.5 3148.5C1692 3478 1531.5 3668.5 1531.5 3756C1531.5 3878.26 1791 3927 1737 4063.5C1708.47 4135.61 1633.76 4172.32 1560 4165.5C1494.14 4159.41 1432.98 4102.61 1366 4088.5C1083.5 4029 1123.32 4316.63 968 4334.5C785.5 4355.5 617.142 4188.75 424 4262.5C341.5 4294 283 4390 278.5 4429.5" stroke="url(#paint0_linear_74_19)" stroke-width="22" ref={lineRef} />
+        <defs>
+          <linearGradient id="paint0_linear_74_19" x1="5.00002" y1="21.5" x2="230" y2="4422" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#090909" />
+            <stop offset="0.139177" stop-color="#890A0A" />
+            <stop offset="0.24" stop-color="#B10E0E" />
+            <stop offset="0.296042" stop-color="#F12B2B" />
+            <stop offset="0.330107" stop-color="white" />
+            <stop offset="0.369056" stop-color="white" />
+            <stop offset="0.451789" stop-color="white" />
+            <stop offset="0.512048" stop-color="#890A0A" />
+            <stop offset="0.602189" stop-color="#DB3A1D" />
+            <stop offset="0.721379" stop-color="#6A0606" />
+            <stop offset="0.766154" stop-color="#811010" />
+            <stop offset="0.810996" stop-color="#E82A2A" />
+            <stop offset="0.893874" stop-color="white" />
+            <stop offset="0.919308" stop-color="white" />
+            <stop offset="0.937351" stop-color="#F25C25" />
+            <stop offset="0.972649" stop-color="#890A0A" />
+            <stop offset="0.998686" stop-color="#090909" />
+          </linearGradient>
+        </defs>
+      </svg>
+      {/* <svg className='absolute line xs:hidden lg:block -mt-56 -ml-12' width="2183" height="4021" viewBox="0 0 2183 4021" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2.25 3.73413C132.97 103.122 442.808 305.467 636.406 319.744C878.404 337.591 1123.61 132.267 1281.64 218.767C1439.67 305.268 1408.53 440.11 1197.56 711.442C986.599 982.773 948.957 1129.09 999.107 1246.98C1049.26 1364.86 1268.66 1360.91 1627.76 1056.95C1986.86 752.995 2165.75 1166.04 2178.61 1478.27C2191.46 1790.5 1863.04 1934.32 1515.9 2070.72C1168.75 2207.13 494.585 2164.02 351.464 2474.93C208.344 2785.84 412.714 2979.44 630.109 3064.88C847.505 3150.31 1134.51 2970.19 1381 3036.5C1627.49 3102.81 1631.39 3520.84 1544.91 3680.54C1448 3859.5 1739 3864 1739 4020.5" stroke="url(#paint0_linear_29_11)" stroke-width="15" ref={lineRef} />
         <defs>
           <linearGradient id="paint0_linear_29_11" x1="127.654" y1="199.797" x2="1928.96" y2="4053.58" gradientUnits="userSpaceOnUse">
@@ -499,7 +310,7 @@ export default function Home() {
             <stop offset="1" stop-color="white" />
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
 
       <Spacing lg="120" md="80" />
       <div id="service" className="services-section-1" >
@@ -592,7 +403,7 @@ export default function Home() {
 
       {/* Start Portfolio Section */}
       <Spacing lg="70" md="50" />
-      <Div className="portfolio overflow-hidden">
+      <Div className="portfolio overflow-hidden z-[10]">
         <Div className="container">
           <SectionHeading
             title="What We’ve Achieved: Get Inspired!"
@@ -608,7 +419,7 @@ export default function Home() {
 
 
       {/* Start Testimonial Section */}
-      <div className='testimonialSlider'>
+      <div className='testimonialSlider z-[100]'>
         <TestimonialSlider />
       </div>
       {/* End Testimonial Section */}
@@ -624,8 +435,8 @@ export default function Home() {
         <div className="cs-shape_4" style={{ backgroundColor: "transparent" }}>
           <Image className='shape_4' src={"/images/icons/slider-dots.webp"} width={200} height={200} />
         </div>
-        <Div className="container">
-          <Div className="row">
+        <Div className="container z-[100]">
+          <Div className="row z-[100]">
             <Div className="col-xl-4">
               <SectionHeading
                 title="Explore Our recent publication"
@@ -635,7 +446,7 @@ export default function Home() {
               />
               <Spacing lg="90" md="45" />
             </Div>
-            <Div className="col-xl-7 offset-xl-1">
+            <Div className="col-xl-7 offset-xl-1 z-[100]">
               <Div className="cs-half_of_full_width">
                 <PostSlider />
               </Div>
@@ -646,12 +457,12 @@ export default function Home() {
       <Spacing lg="125" md="70" />
       <Spacing lg="125" md="70" />
 
-      <Div className="container cta">
+      <Div className="container cta ">
         <Cta
           title="Eager to start your next project? <br />Let’s <i>Collaborate!</i> "
           btnText="Book Your Meeting"
           btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
+          bgSrc="/images/BB.png"
           line={true}
         />
       </Div>

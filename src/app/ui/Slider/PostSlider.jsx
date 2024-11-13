@@ -4,11 +4,11 @@ import Div from '../Div';
 import Post from '../Post';
 const postData = [
   {
-    url: '/blog/blog-details',
-    src: '/images/post_1.jpeg',
+    url: '/blog/the-ultimate-guide-to-the-mobile-app-development-stack-in-2024-what-to-choose-as-a-developer-or-a-business-owner',
+    src: '/blog/blog1/featured.jpg',
     alt: 'Post',
-    date: '07 Mar 2022',
-    title: 'How to keep fear from ruining your art business with confident',
+    date: '24 Nov 2024',
+    title: 'The Ultimate Guide to the Mobile App Development Stack in 2024 What to Choose as a Developer or a Business Owner',
   },
   {
     url: '/blog/blog-details',
