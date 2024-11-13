@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import Div from '../Div';
 import Post from '../Post';
+import { Icon } from '@iconify/react';
 const postData = [
   {
     url: '/blog/the-ultimate-guide-to-the-mobile-app-development-stack-in-2024-what-to-choose-as-a-developer-or-a-business-owner',
@@ -38,21 +39,42 @@ const postData = [
     date: '10 Feb 2022',
     title: 'The Ultimate Guide to the Mobile App Development Stack in 2024 What to Choose as a Developer or a Business Owner',
   },
-  
+
 ];
 
 export default function PostSlider() {
+  const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+    <div
+      {...props}
+      className={`${currentSlide === 0 ? 'slick-disabled' : ''} absolute -bottom-14 border left-12 px-4 py-2  cursor-pointer  z-10 `}
+      aria-hidden="true"
+      aria-disabled={currentSlide === 0 ? true : false}
+    >
+      <Icon icon="bi:arrow-left" className="text-white text-2xl" />
+    </div>
+  );
+
+  const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
+    <div
+      {...props}
+      className={` ${currentSlide === slideCount - 1 ? 'slick-disabled' : ''} absolute -bottom-14 left-32 border px-4 py-2 cursor-pointer  z-10`}
+      aria-hidden="true"
+      aria-disabled={currentSlide === slideCount - 1 ? true : false}
+    >
+      <Icon icon="bi:arrow-right" className="text-white text-2xl" />
+    </div>
+  );
+
   /** Slider Settings **/
   const settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    swipe: true,
+    prevArrow: <SlickArrowLeft />,
+    nextArrow: <SlickArrowRight />,
     responsive: [
       {
         breakpoint: 1600,
@@ -82,7 +104,7 @@ export default function PostSlider() {
   };
 
   return (
-    <Slider {...settings} className="cs-gap-24 space-x-3">
+    <Slider {...settings} className="cs-gap-24 space-x-3 ">
       {postData.map((item, index) => (
         <Div key={index}>
           <Post

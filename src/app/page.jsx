@@ -82,6 +82,76 @@ const portfolioData = [
   },
 
 
+
+  {
+    title: 'Brendanoy',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Brendanoy.png',
+  },
+
+  {
+    title: 'Fizzi',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Fizzi-Demo.Vercel.png',
+  },
+  {
+    title: 'Lauf Cycles',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Lauf-Cycles.png',
+  },
+  {
+    title: 'Le Baas',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Le-Baas.png',
+  },
+  {
+    title: 'Marketing Inspedium',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Marketing-Inspedium.png',
+  },
+  {
+    title: 'Model Prime',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Model-Prime.Vercel.png',
+  },
+  {
+    title: 'Mudir Dashboard',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/Mudir-Dashboard-Vercel.png',
+  },
+
+  {
+    title: 'No Smoking',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/logo/No-Smoking-png.png',
+  },
+  {
+    title: 'Oraganic Life',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/logo/Oraganic-Life.png',
+  },
+  {
+    title: 'Pixel Brain Design',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/logo/Pixel-Brain-Design.png',
+  },
+  {
+    title: 'Western Threadz',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/logo/Western-Threadz.png',
+  },
+
 ];
 
 export default function Home() {
@@ -179,7 +249,7 @@ export default function Home() {
 
       gsap.from('.blog', {
         y: isMobile ? 50 : 200,
-        opacity: 0,
+
         duration: 1.6,
         delay: 1,
         scrollTrigger: {
@@ -271,7 +341,7 @@ export default function Home() {
           </linearGradient>
         </defs>
       </svg> */}
-      <svg className='absolute line xs:hidden lg:block -mt-60  -ml-12' width="2188" height="4409" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className='absolute line xs:hidden xl:block -mt-60  -ml-12' width="2188" height="4409" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M5 7C115.5 95.1667 435.5 299.449 629 322C895 353 1171.03 81.7382 1348 267C1561.5 490.5 783 974.187 1021.5 1278C1079.98 1352.5 1271 1320.5 1438 1204.5C1605 1088.5 1753 919.336 1911 956C2142 1009.6 2260 1513.5 2119 1710.5C1978 1907.5 1520 2125.5 1055.5 2176.5C632 2223 317.091 2329.5 306 2653C297.034 2914.5 579 3129.99 861 3085C1199.5 3031 1439.16 2958.93 1531.5 3148.5C1692 3478 1531.5 3668.5 1531.5 3756C1531.5 3878.26 1791 3927 1737 4063.5C1708.47 4135.61 1633.76 4172.32 1560 4165.5C1494.14 4159.41 1432.98 4102.61 1366 4088.5C1083.5 4029 1123.32 4316.63 968 4334.5C785.5 4355.5 617.142 4188.75 424 4262.5C341.5 4294 283 4390 278.5 4429.5" stroke="url(#paint0_linear_74_19)" stroke-width="22" ref={lineRef} />
         <defs>
           <linearGradient id="paint0_linear_74_19" x1="5.00002" y1="21.5" x2="230" y2="4422" gradientUnits="userSpaceOnUse">
