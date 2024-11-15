@@ -55,17 +55,17 @@ const portfolioData = [
     category: 'web_design',
   },
   {
-    title: 'Lauf Cycles',
-    subtitle: 'Preview',
-    href: '/',
-    src: '/portfolio/website/inner/Lauf-Cycles.png',
-    category: 'web_design',
-  },
-  {
     title: 'Le Baas',
     subtitle: 'Preview',
     href: '/',
     src: '/portfolio/website/inner/Le-Baas.png',
+    category: 'web_design',
+  },
+  {
+    title: 'Lauf Cycles',
+    subtitle: 'Preview',
+    href: '/',
+    src: '/portfolio/website/inner/Lauf-Cycles.png',
     category: 'web_design',
   },
   {
@@ -139,12 +139,28 @@ const categoryMenu = [
 ];
 
 export default function PortfolioPage() {
-  const [active, setActive] = useState('all');
-  const [itemShow, setItemShow] = useState(7);
-  const { addTitle } = useSideHeader()
+  const [activeCategory, setActiveCategory] = useState('all'); // Active category for filtering
+  const [itemShow, setItemShow] = useState(7); // Number of items to show
+  const { addTitle } = useSideHeader();
+
+  // Set the title for the page
   useEffect(() => {
-    addTitle("Creative Showcase")
-  })
+    addTitle("Creative Showcase");
+  }, [addTitle]);
+
+  // Function to handle category change
+  const handleCategoryChange = (category) => {
+    setActiveCategory(category);
+  };
+
+  // Filter portfolio items based on selected category
+  const filteredPortfolioItems = portfolioData.filter((item) => {
+    if (activeCategory === 'all') {
+      return true; // Show all items if "All" is selected
+    }
+    return item.category === activeCategory; // Show items matching the selected category
+  });
+
   return (
     <>
       <PageHeading
@@ -158,15 +174,12 @@ export default function PortfolioPage() {
           <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
-              <li className={active === 'all' ? 'active' : ''}>
-                <span onClick={() => setActive('all')}>All</span>
-              </li>
               {categoryMenu.map((item, index) => (
                 <li
-                  className={active === item.category ? 'active' : ''}
                   key={index}
+                  className={activeCategory === item.category ? 'active' : ''}
                 >
-                  <span onClick={() => setActive(item.category)}>
+                  <span onClick={() => handleCategoryChange(item.category)}>
                     {item.title}
                   </span>
                 </li>
@@ -174,18 +187,13 @@ export default function PortfolioPage() {
             </ul>
           </Div>
         </Div>
+
         <Spacing lg="90" md="45" />
         <Div className="row">
-          {portfolioData.slice(0, itemShow).map((item, index) => (
+          {filteredPortfolioItems.slice(0, itemShow).map((item, index) => (
             <Div
-              className={`${index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
-                } ${active === 'all'
-                  ? ''
-                  : !(active === item.category)
-                    ? 'd-none'
-                    : ''
-                }`}
               key={index}
+              className={`${index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'} `}
             >
               <Portfolio
                 title={item.title}
@@ -200,7 +208,7 @@ export default function PortfolioPage() {
         </Div>
 
         <Div className="text-center">
-          {portfolioData.length <= itemShow ? (
+          {filteredPortfolioItems.length <= itemShow ? (
             ''
           ) : (
             <>

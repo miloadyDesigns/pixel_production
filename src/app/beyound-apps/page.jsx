@@ -51,27 +51,25 @@ const page = () => {
                 pageLinkText="OTHER SERVICES"
             />
 
-            
-            <svg className='absolute line xs:hidden lg:block -ml-24 -mt-1 ' width="2269" height="3487" viewBox="0 0 2269 3687" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M42.5 2.5C91.5 240.5 465.867 391.745 657.663 421.805C960.668 469.294 1202.5 264.133 1585.88 403.137C1746.97 461.544 1863.47 380.126 1854 276.5C1847.74 207.979 1785.39 202.959 1749.34 264.133C1707 336 1769.32 491.511 2089 637C2408.68 782.489 2223.02 1274.13 1996.27 1301.83C1727.23 1334.7 1756.06 1141.06 1451.06 1162.34C1146.06 1183.61 1290.08 1446.74 1009.5 1546.2C793.204 1622.88 703.506 1563.52 432.894 1563.52C282.784 1563.52 -74.2119 1634.95 25.2268 2036.92C148.821 2536.55 833.072 2147.24 1009.5 2457.4C1126.84 2663.68 741.373 2854.6 741.373 3023.8C741.373 3193 908 3254.71 1151.5 3306C1328.5 3343.28 1628.26 3330.6 1809 3510C1876.5 3577 1816.5 3682.5 1816.5 3682.5" stroke="url(#paint0_linear_83_13)" stroke-width="22" ref={lineRef}/>
+            <svg className='absolute line xs:hidden lg:block -ml-14 -mt-1 ' width="2273" height="3545" viewBox="0 0 2273 3645" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 2C57 240 469.867 447.745 661.663 477.805C964.668 525.294 1206.5 320.133 1589.88 459.137C1750.97 517.544 1867.47 436.126 1858 332.5C1851.74 263.979 1789.39 258.959 1753.34 320.133C1711 392 1773.32 547.511 2093 693C2412.68 838.489 2227.02 1330.13 2000.27 1357.83C1731.23 1390.7 1760.06 1197.06 1455.06 1218.34C1150.06 1239.61 1294.08 1502.74 1013.5 1602.2C797.204 1678.88 707.506 1619.52 436.894 1619.52C286.784 1619.52 -70.2119 1690.95 29.2268 2092.92C152.821 2592.55 837.072 2203.24 1013.5 2513.4C1130.84 2719.68 745.373 2910.6 745.373 3079.8C745.373 3249 912 3310.71 1155.5 3362C1332.5 3399.28 1576.5 3291 1733.5 3491.5C1783.95 3555.93 1753.5 3642 1753.5 3642" stroke="url(#paint0_linear_82_11)" stroke-width="22" ref={lineRef} />
                 <defs>
-                    <linearGradient id="paint0_linear_83_13" x1="153.307" y1="46.3456" x2="374.273" y2="4400.15" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint0_linear_82_11" x1="46.5002" y1="40.5" x2="420.646" y2="4455.06" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#090909" />
-                        <stop offset="0.0736829" stop-color="#890A0A" />
-                        <stop offset="0.112182" stop-color="#F12B2B" />
-                        <stop offset="0.149192" stop-color="white" />
-                        <stop offset="0.256427" stop-color="#B10E0E" />
-                        <stop offset="0.294076" stop-color="#9A0808" />
-                        <stop offset="0.320295" stop-color="#B10E0E" />
-                        <stop offset="0.351158" stop-color="white" />
-                        <stop offset="0.521892" stop-color="#890A0A" />
-                        <stop offset="0.570003" stop-color="#C71E1E" />
-                        <stop offset="0.647824" stop-color="#F12727" />
+                        <stop offset="0.08315" stop-color="#3F0B0B" />
+                        <stop offset="0.134803" stop-color="#930B0B" />
+                        <stop offset="0.203647" stop-color="#F56464" />
+                        <stop offset="0.272172" stop-color="#9F1B11" />
+                        <stop offset="0.358127" stop-color="#D0351B" />
+                        <stop offset="0.476466" stop-color="#B10E0E" />
+                        <stop offset="0.544191" stop-color="#3D0B0B" />
+                        <stop offset="0.624069" stop-color="#C42E18" />
+                        <stop offset="0.733372" stop-color="#F12727" />
                         <stop offset="0.788628" stop-color="white" />
                     </linearGradient>
                 </defs>
             </svg>
-            
+
             <Spacing lg="90" md="80" />
             <Div className="container">
                 <Div className="col-xl-12 m-auto col-lg-12 text-center">

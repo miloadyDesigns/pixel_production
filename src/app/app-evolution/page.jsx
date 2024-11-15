@@ -71,22 +71,20 @@ const page = () => {
                 videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
                 pageLinkText="APP DEVELOPMENT"
             />
-
-            <svg className='absolute line xs:hidden lg:block -ml-10 -mt-1 ' width="2269" height="3625" viewBox="0 0 2269 3625" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M42.5 2.5C91.5 240.5 465.867 391.745 657.663 421.805C960.668 469.294 1202.5 264.133 1585.88 403.137C1746.97 461.544 1863.47 380.126 1854 276.5C1847.74 207.979 1785.39 202.959 1749.34 264.133C1707 336 1769.32 491.511 2089 637C2408.68 782.489 2223.02 1274.13 1996.27 1301.83C1727.23 1334.7 1756.06 1141.06 1451.06 1162.34C1146.06 1183.61 1290.08 1446.74 1009.5 1546.2C793.204 1622.88 703.506 1563.52 432.894 1563.52C282.784 1563.52 -74.2119 1634.95 25.2268 2036.92C148.821 2536.55 833.072 2147.24 1009.5 2457.4C1126.84 2663.68 741.373 2854.6 741.373 3023.8C741.373 3193 908 3254.71 1151.5 3306C1328.5 3343.28 1534.5 3271 1691.5 3471.5C1741.95 3535.93 1711.5 3622 1711.5 3622" stroke="url(#paint0_linear_82_11)" stroke-width="22" ref={lineRef}/>
+            <svg className='absolute line xs:hidden lg:block  -mt-14 ' width="2286" height="3647" viewBox="0 0 2286 3647" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 2C68 240 465.867 426.745 657.663 456.805C960.668 504.294 1292 270.5 1618 456.805C1766.77 541.825 1895.59 433.794 1886.12 330.168C1879.86 261.646 1796.28 248.36 1781.46 317.801C1754.55 443.943 1948.92 603.724 2173.68 718.489C2398.45 833.253 2223.02 1309.13 1996.27 1336.83C1727.23 1369.7 1756.06 1176.06 1451.06 1197.34C1146.06 1218.61 1290.08 1481.74 1009.5 1581.2C793.204 1657.88 703.506 1598.52 432.894 1598.52C282.784 1598.52 -74.2119 1669.95 25.2268 2071.92C148.821 2571.55 833.072 2182.24 1009.5 2492.4C1126.84 2698.68 741.373 2889.6 741.373 3058.8C741.373 3228 908 3289.71 1151.5 3341C1328.5 3378.28 1520.84 3275.82 1653 3493.5C1695.5 3563.5 1673 3644 1673 3644" stroke="url(#paint0_linear_83_12)" stroke-width="22" ref={lineRef} />
                 <defs>
-                    <linearGradient id="paint0_linear_82_11" x1="153.307" y1="46.3456" x2="374.273" y2="4400.15" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint0_linear_83_12" x1="84.5002" y1="38" x2="374.24" y2="4435.21" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#090909" />
-                        <stop offset="0.0736829" stop-color="#890A0A" />
-                        <stop offset="0.112182" stop-color="#F12B2B" />
-                        <stop offset="0.149192" stop-color="white" />
-                        <stop offset="0.256427" stop-color="#B10E0E" />
-                        <stop offset="0.294076" stop-color="#9A0808" />
-                        <stop offset="0.320295" stop-color="#B10E0E" />
-                        <stop offset="0.351158" stop-color="white" />
-                        <stop offset="0.521892" stop-color="#890A0A" />
-                        <stop offset="0.570003" stop-color="#C71E1E" />
-                        <stop offset="0.647824" stop-color="#F12727" />
+                        <stop offset="0.08315" stop-color="#3F0B0B" />
+                        <stop offset="0.134803" stop-color="#930B0B" />
+                        <stop offset="0.203647" stop-color="#F56464" />
+                        <stop offset="0.272172" stop-color="#9F1B11" />
+                        <stop offset="0.358127" stop-color="#D0351B" />
+                        <stop offset="0.476466" stop-color="#B10E0E" />
+                        <stop offset="0.544191" stop-color="#3D0B0B" />
+                        <stop offset="0.624069" stop-color="#C42E18" />
+                        <stop offset="0.733372" stop-color="#F12727" />
                         <stop offset="0.788628" stop-color="white" />
                     </linearGradient>
                 </defs>

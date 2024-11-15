@@ -7,7 +7,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg4 from '../../../public/images/Smoke-1.png'
+import aboutImg4 from '../../../public/images/Characters.png'
 import { useSideHeader } from "@/utils/SideHeaderToggle";
 import { useEffect, useRef } from "react";
 import gsap from 'gsap';
@@ -74,18 +74,20 @@ export default function AboutPage() {
         videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
         pageLinkText="about"
       />
-      {/* End Page Heading Section */}
-      <svg  className='absolute line xs:hidden lg:block -ml-4 ' width="2131" height="2048" viewBox="0 0 2131 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5 7C205.094 132.02 154.056 346.837 360.028 504.362C534.137 637.519 860.264 601.378 1159.42 526.366C1444.94 454.774 1987.58 383.477 2103.01 803.41C2200.6 1158.47 1923.03 1386.34 1657.21 1341.5C1319.31 1284.49 1100.78 1191.98 962 1289C823.215 1386.02 839.353 1560.73 882 1645.5C1045 1969.5 1850.64 1710.03 1905 1980.5C1910.33 2007 1895 2044 1895 2044" stroke="url(#paint0_linear_79_59)" stroke-width="22" ref={lineRef}/>
+
+
+      <svg className='absolute line xs:hidden lg:block -ml-4 ' width="2061" height="2026" viewBox="0 0 2061 2026" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 7.5C205.094 132.52 126.056 349.837 332.028 507.362C506.137 640.519 832.264 604.378 1131.42 529.366C1416.94 457.774 1914.07 385.066 2029.5 805C2127.1 1160.06 1895.03 1389.34 1629.21 1344.5C1291.31 1287.49 1127 1271.5 1000 1344.5C873 1417.5 877.853 1563.73 920.5 1648.5C1083.5 1972.5 1660.5 1718.5 1702 1958.5C1706.61 1985.13 1702 2024.5 1702 2024.5" stroke="url(#paint0_linear_79_59)" stroke-width="22" ref={lineRef} />
         <defs>
-          <linearGradient id="paint0_linear_79_59" x1="99.6189" y1="-4.21937" x2="329.061" y2="4396.53" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint0_linear_79_59" x1="71.619" y1="-1.21938" x2="301.061" y2="4399.53" gradientUnits="userSpaceOnUse">
             <stop stop-color="#090909" />
             <stop offset="0.0680477" stop-color="#890A0A" />
-            <stop offset="0.128921" stop-color="#B10E0E" />
-            <stop offset="0.149433" stop-color="white" />
+            <stop offset="0.135625" stop-color="#B10E0E" />
+            <stop offset="0.184586" stop-color="#610909" />
             <stop offset="0.278203" stop-color="white" />
-            <stop offset="0.303758" stop-color="#940606" />
-            <stop offset="0.40541" stop-color="#F12B2B" />
+            <stop offset="0.316336" stop-color="#A42112" />
+            <stop offset="0.361631" stop-color="#A52112" />
+            <stop offset="0.406106" stop-color="#A42112" />
             <stop offset="0.448682" stop-color="white" />
             <stop offset="0.480182" stop-color="white" />
             <stop offset="0.512048" stop-color="#890A0A" />
@@ -101,7 +103,16 @@ export default function AboutPage() {
           </linearGradient>
         </defs>
       </svg>
-    
+
+
+
+
+
+
+
+      {/* End Page Heading Section */}
+
+
       {/* Start About Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">
@@ -193,7 +204,7 @@ export default function AboutPage() {
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-6">
-            <Div className="cs-image_layer cs-style1">
+            <Div className=" cs-style1 ">
               <Div className="cs-image_layer_in">
                 <Image
                   src={aboutImg4}

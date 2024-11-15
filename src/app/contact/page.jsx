@@ -6,8 +6,8 @@ import Spacing from "@/app/ui/Spacing";
 import ContactInfoWidget from "@/app/ui/Widget/ContactInfoWidget";
 import { useSideHeader } from "@/utils/SideHeaderToggle";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 import { useEffect, useState } from "react"; // Import useState for managing the selected services
-
 export default function ContactPage() {
   const { addTitle } = useSideHeader()
   const [selectedServices, setSelectedServices] = useState("");
@@ -140,7 +140,8 @@ export default function ContactPage() {
       </Div>
       <Spacing lg="150" md="80" />
       <Div className="cs-google_map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.331582277941!2d-97.75747352379062!3d30.341525004432903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cae2feb064b3%3A0xfbcc19243aa6ddc0!2sSyner%20Supplements%2C%205900%20Balcones%20Dr%2C%20Austin%2C%20TX%2078731!5e0!3m2!1sen!2sus!4v1730203293615!5m2!1sen!2sus" allowfullscreen loading="lazy" ></iframe>
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.331582277941!2d-97.75747352379062!3d30.341525004432903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cae2feb064b3%3A0xfbcc19243aa6ddc0!2sSyner%20Supplements%2C%205900%20Balcones%20Dr%2C%20Austin%2C%20TX%2078731!5e0!3m2!1sen!2sus!4v1730203293615!5m2!1sen!2sus" allowfullscreen loading="lazy" ></iframe> */}
+        <img src={"/images/MAP.png"} className="w-full"  />
       </Div>
       <Spacing lg="50" md="40" />
     </>
