@@ -6,38 +6,38 @@ import { Icon } from '@iconify/react';
 const postData = [
   {
     url: '/blog/the-ultimate-guide-to-the-mobile-app-development-stack-in-2024-what-to-choose-as-a-developer-or-a-business-owner',
-    src: '/blog/features/4.png',
+    src: '/blog/features/F1.png',
     alt: 'Post',
     date: '24 Nov 2024',
     title: 'The Ultimate Guide to the Mobile App Development Stack in 2024 What to Choose as a Developer or a Business Owner',
   },
   {
     url: '/blog/the-future-of-mobile-app-development-trends-to-watch-in-2024-and-beyond',
-    src: '/blog/features/3.png',
+    src: '/blog/features/F8.png',
     alt: 'Post',
     date: '10 Feb 2022',
     title: 'The Future of Mobile App Development: Trends to Watch in 2024 and Beyond',
   },
   {
     url: '/blog/exploring-the-latest-react-native-0-75-update-key-features-and-improvements',
-    src: '/blog/features/9.png',
+    src: '/blog/features/F2.png',
     alt: 'Post',
     date: '05 Mar 2022',
     title: 'Exploring the Latest React Native 0.75 Update Key Features and Improvements',
   },
   {
     url: '/blog/why-gui-based-backend-like-firebase-and-supabase-are-more-popular-than-code-based-backend-like-spring-boot-and-node-js',
-    src: '/blog/features/8.png',
+    src: '/blog/features/F3.png',
     alt: 'Post',
     date: '07 Mar 2022',
     title: 'Why GUI-Based Backend Like Firebase and Supabase are More Popular Than Code-Based Backend like Spring Boot and Node.js',
   },
   {
-    url: '/blog/the-ultimate-guide-to-the-mobile-app-development-stack-in-2024-what-to-choose-as-a-developer-or-a-business-owner',
-    src: '/blog/features/10.png',
+    url: '/blog/understanding-mobile-application-development-a-comprehensive-guide',
+    src: '/blog/features/F6.png',
     alt: 'Post',
     date: '10 Feb 2022',
-    title: 'The Ultimate Guide to the Mobile App Development Stack in 2024 What to Choose as a Developer or a Business Owner',
+    title: 'Understanding Mobile Application Development: A Comprehensive Guide',
   },
 
 ];

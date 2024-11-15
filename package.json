@@ -15,6 +15,7 @@
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
     "html-react-parser": "^5.1.8",
+    "lenis": "^1.1.16",
     "lightgallery": "^2.7.2",
     "next": "14.1.2",
     "nodemailer": "^6.9.16",
@@ -25,6 +26,7 @@
     "react-intersection-observer": "^9.13.1",
     "react-slick": "^0.30.2",
     "sass": "^1.71.1",
+    "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^8.4.5"
   },

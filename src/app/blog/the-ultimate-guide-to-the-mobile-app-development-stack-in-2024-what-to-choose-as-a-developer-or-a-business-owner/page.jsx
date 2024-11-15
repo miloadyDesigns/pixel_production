@@ -20,7 +20,7 @@ export default function BlogDetailsPage() {
             {/* Start Page Heading Section */}
             <PageHeading
                 title='The Ultimate Guide to the Mobile App Development Stack in 2024 What to Choose as a Developer or a Business Owner'
-                videoSrc="/video/blackWhiteVideo.mp4"
+                videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
                 pageLinkText='blog-details'
             />
             {/* End Page Heading Section */}

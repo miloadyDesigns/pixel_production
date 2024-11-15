@@ -9,8 +9,11 @@ import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
 import aboutImg4 from '../../../public/images/Smoke-1.png'
 import { useSideHeader } from "@/utils/SideHeaderToggle";
-import { useEffect } from "react";
-
+import { useEffect, useRef } from "react";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+import { useGSAP } from '@gsap/react'
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 
 const funfaceData = [
@@ -33,20 +36,72 @@ const funfaceData = [
 ];
 
 export default function AboutPage() {
+  const lineRef = useRef()
   const { addTitle } = useSideHeader()
   useEffect(() => {
     addTitle("Behind Creativity")
+  })
+  useGSAP(() => {
+    let md = gsap.matchMedia();
+    const line = lineRef.current;
+
+    const length = line.getTotalLength();
+
+    gsap.set(line, {
+      strokeDasharray: length
+    });
+
+    gsap.fromTo(line,
+      {
+        strokeDashoffset: length
+      }, {
+      strokeDashoffset: 0,
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".line",
+        start: "top 60%",
+        end: "bottom bottom",
+        scrub: 1,
+      },
+    },);
+
   })
   return (
     <>
       {/* Start Page Heading Section */}
       <PageHeading
         title="Behind Creativity"
-        videoSrc="/video/blackWhiteVideo.mp4"
+        videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
         pageLinkText="about"
       />
       {/* End Page Heading Section */}
-
+      <svg  className='absolute line xs:hidden lg:block -ml-4 ' width="2131" height="2048" viewBox="0 0 2131 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 7C205.094 132.02 154.056 346.837 360.028 504.362C534.137 637.519 860.264 601.378 1159.42 526.366C1444.94 454.774 1987.58 383.477 2103.01 803.41C2200.6 1158.47 1923.03 1386.34 1657.21 1341.5C1319.31 1284.49 1100.78 1191.98 962 1289C823.215 1386.02 839.353 1560.73 882 1645.5C1045 1969.5 1850.64 1710.03 1905 1980.5C1910.33 2007 1895 2044 1895 2044" stroke="url(#paint0_linear_79_59)" stroke-width="22" ref={lineRef}/>
+        <defs>
+          <linearGradient id="paint0_linear_79_59" x1="99.6189" y1="-4.21937" x2="329.061" y2="4396.53" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#090909" />
+            <stop offset="0.0680477" stop-color="#890A0A" />
+            <stop offset="0.128921" stop-color="#B10E0E" />
+            <stop offset="0.149433" stop-color="white" />
+            <stop offset="0.278203" stop-color="white" />
+            <stop offset="0.303758" stop-color="#940606" />
+            <stop offset="0.40541" stop-color="#F12B2B" />
+            <stop offset="0.448682" stop-color="white" />
+            <stop offset="0.480182" stop-color="white" />
+            <stop offset="0.512048" stop-color="#890A0A" />
+            <stop offset="0.602189" stop-color="#DB3A1D" />
+            <stop offset="0.721379" stop-color="#6A0606" />
+            <stop offset="0.766154" stop-color="#811010" />
+            <stop offset="0.810996" stop-color="#E82A2A" />
+            <stop offset="0.893874" stop-color="white" />
+            <stop offset="0.919308" stop-color="white" />
+            <stop offset="0.937351" stop-color="#F25C25" />
+            <stop offset="0.972649" stop-color="#890A0A" />
+            <stop offset="0.998686" stop-color="#090909" />
+          </linearGradient>
+        </defs>
+      </svg>
+    
       {/* Start About Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">

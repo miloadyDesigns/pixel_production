@@ -159,7 +159,7 @@ export default function Home() {
   const lineRef = useRef()
   const { addTitle } = useSideHeader()
   useEffect(() => {
-    addTitle("Home")
+    addTitle("Transforming Your Digital Vision into Reality")
 
 
   }, []);
@@ -171,25 +171,25 @@ export default function Home() {
     const line = lineRef.current;
 
     const length = line.getTotalLength();
-    md.add("(min-width:1820px)", () => {
-      gsap.set(line, {
-        strokeDasharray: length
-      });
 
-      gsap.fromTo(line,
-        {
-          strokeDashoffset: length
-        }, {
-        strokeDashoffset: 0,
-        ease: "none",
-        scrollTrigger: {
-          trigger: ".line",
-          start: "top 60%",
-          end: "bottom bottom",
-          scrub: 1,
-        },
-      },);
-    })
+    gsap.set(line, {
+      strokeDasharray: length
+    });
+
+    gsap.fromTo(line,
+      {
+        strokeDashoffset: length
+      }, {
+      strokeDashoffset: 0,
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".line",
+        start: "top 60%",
+        end: "bottom bottom",
+        scrub: 1,
+      },
+    },);
+
 
     mm.add("(min-width: 800px)", () => {
       const tl = gsap.timeline({
@@ -305,7 +305,7 @@ export default function Home() {
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/hero_bg.jpeg"
-        videoUrl={"/video/redVideoBack.mp4"}
+        videoUrl={"https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529077/a4j8vakcx4fn9rkcajjt.mp4"}
       />
 
       <div className="container" >
@@ -317,31 +317,8 @@ export default function Home() {
         />
       </div>
       {/* End FunFact Section */}
-      {/* <svg className='absolute line xs:hidden lg:block -mt-64 z-[1] -ml-12' width="2188" height="4431" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5 7C115.5 95.1667 435.5 299.449 629 322C895 353 1171.03 81.7382 1348 267C1561.5 490.5 783 974.187 1021.5 1278C1079.98 1352.5 1271 1320.5 1438 1204.5C1605 1088.5 1753 919.336 1911 956C2142 1009.6 2260 1513.5 2119 1710.5C1978 1907.5 1520 2125.5 1055.5 2176.5C632 2223 317.091 2329.5 306 2653C297.034 2914.5 579 3129.99 861 3085C1199.5 3031 1439.16 2958.93 1531.5 3148.5C1692 3478 1531.5 3668.5 1531.5 3756C1531.5 3878.26 1791 3927 1737 4063.5C1708.47 4135.61 1633.76 4172.32 1560 4165.5C1494.14 4159.41 1432.98 4102.61 1366 4088.5C1083.5 4029 1123.32 4316.63 968 4334.5C785.5 4355.5 617.142 4188.75 424 4262.5C341.5 4294 283 4390 278.5 4429.5" stroke="url(#paint0_linear_74_19)" stroke-width="16" ref={lineRef} />
-        <defs>
-          <linearGradient id="paint0_linear_74_19" x1="4.99995" y1="-219" x2="230" y2="4422" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#090909" />
-            <stop offset="0.139177" stop-color="#890A0A" />
-            <stop offset="0.310793" stop-color="#B10E0E" />
-            <stop offset="0.371513" stop-color="white" />
-            <stop offset="0.414915" stop-color="white" />
-            <stop offset="0.461129" stop-color="#B10E0E" />
-            <stop offset="0.505712" stop-color="#890A0A" />
-            <stop offset="0.559438" stop-color="white" />
-            <stop offset="0.593576" stop-color="white" />
-            <stop offset="0.635762" stop-color="#B10E0E" />
-            <stop offset="0.721379" stop-color="#890A0A" />
-            <stop offset="0.803046" stop-color="#B10E0E" />
-            <stop offset="0.864665" stop-color="white" />
-            <stop offset="0.884019" stop-color="white" />
-            <stop offset="0.911208" stop-color="#B10E0E" />
-            <stop offset="0.943865" stop-color="#890A0A" />
-            <stop offset="1" stop-color="#090909" />
-          </linearGradient>
-        </defs>
-      </svg> */}
-      <svg className='absolute line xs:hidden xl:block -mt-60  -ml-12' width="2188" height="4409" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+      <svg className='absolute line xs:hidden lg:block -mt-60  -ml-12' width="2188" height="4409" viewBox="0 0 2188 4431" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M5 7C115.5 95.1667 435.5 299.449 629 322C895 353 1171.03 81.7382 1348 267C1561.5 490.5 783 974.187 1021.5 1278C1079.98 1352.5 1271 1320.5 1438 1204.5C1605 1088.5 1753 919.336 1911 956C2142 1009.6 2260 1513.5 2119 1710.5C1978 1907.5 1520 2125.5 1055.5 2176.5C632 2223 317.091 2329.5 306 2653C297.034 2914.5 579 3129.99 861 3085C1199.5 3031 1439.16 2958.93 1531.5 3148.5C1692 3478 1531.5 3668.5 1531.5 3756C1531.5 3878.26 1791 3927 1737 4063.5C1708.47 4135.61 1633.76 4172.32 1560 4165.5C1494.14 4159.41 1432.98 4102.61 1366 4088.5C1083.5 4029 1123.32 4316.63 968 4334.5C785.5 4355.5 617.142 4188.75 424 4262.5C341.5 4294 283 4390 278.5 4429.5" stroke="url(#paint0_linear_74_19)" stroke-width="22" ref={lineRef} />
         <defs>
           <linearGradient id="paint0_linear_74_19" x1="5.00002" y1="21.5" x2="230" y2="4422" gradientUnits="userSpaceOnUse">
@@ -365,22 +342,7 @@ export default function Home() {
           </linearGradient>
         </defs>
       </svg>
-      {/* <svg className='absolute line xs:hidden lg:block -mt-56 -ml-12' width="2183" height="4021" viewBox="0 0 2183 4021" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M2.25 3.73413C132.97 103.122 442.808 305.467 636.406 319.744C878.404 337.591 1123.61 132.267 1281.64 218.767C1439.67 305.268 1408.53 440.11 1197.56 711.442C986.599 982.773 948.957 1129.09 999.107 1246.98C1049.26 1364.86 1268.66 1360.91 1627.76 1056.95C1986.86 752.995 2165.75 1166.04 2178.61 1478.27C2191.46 1790.5 1863.04 1934.32 1515.9 2070.72C1168.75 2207.13 494.585 2164.02 351.464 2474.93C208.344 2785.84 412.714 2979.44 630.109 3064.88C847.505 3150.31 1134.51 2970.19 1381 3036.5C1627.49 3102.81 1631.39 3520.84 1544.91 3680.54C1448 3859.5 1739 3864 1739 4020.5" stroke="url(#paint0_linear_29_11)" stroke-width="15" ref={lineRef} />
-        <defs>
-          <linearGradient id="paint0_linear_29_11" x1="127.654" y1="199.797" x2="1928.96" y2="4053.58" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#090909" />
-            <stop offset="0.115" stop-color="#D01010" />
-            <stop offset="0.22" stop-color="#670000" />
-            <stop offset="0.325" stop-color="#FF4A17" />
-            <stop offset="0.445" stop-color="#A90E0A" />
-            <stop offset="0.57" stop-color="white" />
-            <stop offset="0.7" stop-color="#E95334" />
-            <stop offset="0.82" stop-color="#910000" />
-            <stop offset="1" stop-color="white" />
-          </linearGradient>
-        </defs>
-      </svg> */}
+      
 
       <Spacing lg="120" md="80" />
       <div id="service" className="services-section-1" >
@@ -392,7 +354,7 @@ export default function Home() {
                 subtitle="Empowering Your Vision Through Technology."
                 subtitle2="We blend innovation with technology to bring your ideas to life. Our expert team specializes in crafting mobile apps and robust backend solutions, ensuring your vision is realized seamlessly."
                 btnText="Explore Services"
-                btnLink="/service"
+                btnLink="/"
               />
               <Spacing lg="90" md="45" />
             </Div>
@@ -500,10 +462,10 @@ export default function Home() {
       <Div className="cs-shape_wrap_4 blog">
         {/* <Div className="cs-shape_4" style={{ border: '1px solid radial-gradient(circle, rgba(255, 74, 23, 0.8), rgba(153, 44, 14, 0.8))' }}></Div> */}
         <div className="cs-shape_4" style={{ backgroundColor: "transparent" }}>
-          <Image className='shape_4' src={"/images/icons/slider-dots.webp"} width={100} height={100} />
+          <Image className='shape_4' src={"/images/icons/slider-dot.png"} width={100} height={100} />
         </div>
         <div className="cs-shape_4" style={{ backgroundColor: "transparent" }}>
-          <Image className='shape_4' src={"/images/icons/slider-dots.webp"} width={200} height={200} />
+          <Image className='shape_4' src={"/images/icons/slider-dot.png"} width={200} height={200} />
         </div>
         <Div className="container z-[100]">
           <Div className="row z-[100]">

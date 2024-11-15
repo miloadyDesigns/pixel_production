@@ -66,7 +66,7 @@ export default function ContactPage() {
     <>
       <PageHeading
         title="Get in Touch!"
-        videoSrc="/video/blackWhiteVideo.mp4"
+        videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
         pageLinkText="Contact"
       />
       <Spacing lg="150" md="80" />

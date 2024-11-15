@@ -20,7 +20,7 @@ export default function BlogDetailsPage() {
             {/* Start Page Heading Section */}
             <PageHeading
                 title='The Future of Mobile App Development: Trends to Watch in 2024 and Beyond'
-                videoSrc="/video/blackWhiteVideo.mp4"
+                videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
                 pageLinkText='blog-details'
             />
             {/* End Page Heading Section */}

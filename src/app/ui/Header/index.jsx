@@ -72,35 +72,35 @@ export default function Header({ variant }) {
 
               </Div>
 
-              <Div className="cs-main_header_center">
+              <Div className="cs-main_header_center ">
                 <Div className="cs-nav cs-primary_font cs-medium">
-                  <ul className="cs-nav_list" style={{ display: `${mobileToggle ? 'block' : 'none'}` }}>
+                  <ul className="cs-nav_list " style={{ display: `${mobileToggle ? 'block' : 'none'}` }}>
                     {/* <li className="menu-item-has-children text-lg font-semibold">
                       <Link href="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </Link>
                     </li> */}
-                    <li className='text-lg font-semibold'>
+                    <li className='xs:text-[15px] 2xl:text-lg font-semibold'>
                       <Link href="/about" onClick={() => setMobileToggle(false)}>
                         Behind Creativity
                       </Link>
                     </li>
-                    <li className="menu-item-has-children header-text text-lg font-semibold">
+                    <li className="menu-item-has-children header-text xs:text-[15px] 2xl:text-lg font-semibold">
                       <Link href="/portfolio" onClick={() => setMobileToggle(false)}>
                         Creative Showcase
                       </Link>
                     </li>
-                    <li className="menu-item-has-children text-lg font-semibold">
+                    <li className="menu-item-has-children xs:text-[15px] 2xl:text-lg font-semibold">
                       <Link href="/app-evolution" onClick={() => setMobileToggle(false)}>
                         App Evolution
                       </Link>
                     </li>
-                    <li className="menu-item-has-children text-lg font-semibold">
+                    <li className="menu-item-has-children xs:text-[15px] 2xl:text-lg font-semibold">
                       <Link href="/beyound-apps" onClick={() => setMobileToggle(false)}>
                         Beyond Apps
                       </Link>
                     </li>
-                    <li className='text-lg font-semibold'>
+                    <li className='xs:text-[15px] 2xl:text-lg font-semibold'>
                       <Link href="/contact" onClick={() => setMobileToggle(false)}>
                         Connect
                       </Link>

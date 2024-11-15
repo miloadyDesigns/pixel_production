@@ -20,7 +20,7 @@ export default function BlogDetailsPage() {
             {/* Start Page Heading Section */}
             <PageHeading
                 title='Exploring the Latest React Native 0.75 Update Key Features and Improvements'
-                videoSrc="/video/blackWhiteVideo.mp4"
+                videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
                 pageLinkText='blog-details'
             />
             {/* End Page Heading Section */}

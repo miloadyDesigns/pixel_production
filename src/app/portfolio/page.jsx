@@ -149,7 +149,7 @@ export default function PortfolioPage() {
     <>
       <PageHeading
         title="Portfolio"
-        videoSrc="/video/blackWhiteVideo.mp4"
+        videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
         pageLinkText="portfolio"
       />
       <Spacing lg="145" md="80" />

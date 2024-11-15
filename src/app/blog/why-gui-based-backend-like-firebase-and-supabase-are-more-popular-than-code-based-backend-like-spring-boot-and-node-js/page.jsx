@@ -20,7 +20,7 @@ export default function BlogDetailsPage() {
             {/* Start Page Heading Section */}
             <PageHeading
                 title='Why GUI-Based Backend Like Firebase and Supabase are More Popular Than Code-Based Backend like Spring Boot and Node.js'
-                videoSrc="/video/blackWhiteVideo.mp4"
+                videoSrc="https://res.cloudinary.com/dz8sirg5s/video/upload/v1731529258/kz2gtqa1lajamxbemdzp.mp4"
                 pageLinkText='blog-details'
             />
             {/* End Page Heading Section */}
