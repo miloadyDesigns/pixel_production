@@ -33,9 +33,8 @@ export default function page() {
                             subtitle='App Development'
                         >
                             <Spacing lg='40' md='20' />
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p>This video showcases Plano, a mobile app designed to enhance the salon experience by offering a seamless way to book and manage beauty services. Plano features a clean, user-friendly interface that allows customers to easily browse through a variety of salon treatments, including haircuts, styling, facials, manicures, and more. Users can view detailed service descriptions, check the availability of their preferred stylists or technicians, and quickly book appointments with just a few taps. The app also offers secure payment options for a smooth checkout process. Real-time notifications keep users informed with appointment reminders, confirmations, and special offers. Fully optimized for both Android and iOS devices, Plano provides a fast, responsive, and convenient platform, making it easier than ever for customers to manage their salon visits and enjoy a premium beauty experience.</p>
                             <Spacing lg='10' md='10' />
-                            <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
                         </SectionHeading>
                     </Div>
                 </Div>

@@ -7,7 +7,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg4 from '../../../public/images/Characters.png'
+import aboutImg4 from '../../../public/images/Why-choose-us.png'
 import { useSideHeader } from "@/utils/SideHeaderToggle";
 import { useEffect, useRef } from "react";
 import gsap from 'gsap';

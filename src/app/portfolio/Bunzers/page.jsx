@@ -33,9 +33,8 @@ export default function page() {
                             subtitle='App Development'
                         >
                             <Spacing lg='40' md='20' />
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p>This video showcases an eCommerce mobile app designed to provide a seamless and intuitive shopping experience. Featuring a sleek, user-friendly interface, the app allows users to easily browse through an extensive catalog of products, filter and search items, and view detailed product descriptions and images. The checkout process is secure and efficient, supporting various payment options, including credit/debit cards, digital wallets, and cash on delivery. The app also offers real-time order tracking, ensuring customers can monitor their purchases from order to delivery. Additionally, personalized push notifications keep users informed about promotions, new arrivals, and order updates. Fully optimized for both Android and iOS devices, the app delivers a fast, responsive, and engaging experience, making it the ideal solution for modern online shopping.</p>
                             <Spacing lg='10' md='10' />
-                            <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
                         </SectionHeading>
                     </Div>
                 </Div>

@@ -33,9 +33,8 @@ export default function page() {
                             subtitle='App Development'
                         >
                             <Spacing lg='40' md='20' />
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p>This video showcases Brake Time, a comprehensive mobile app designed for efficient inventory and store management. The app provides businesses with a streamlined solution for managing stock, placing orders with warehouses, and tracking inventory across multiple locations. With its intuitive interface, Brake Time allows store managers to easily place orders for new stock, monitor inventory levels in real-time, and ensure that shelves are always stocked with the right products. The app features multiple panels for different user roles, including store managers, warehouse staff, and admins, each offering tailored functionality to enhance operational efficiency. Additionally, Brake Time includes a claims feature that allows users to submit and track product claims for damaged or missing items, ensuring smooth resolution of issues. Fully optimized for both Android and iOS, Brake Time simplifies inventory control, order management, and communication between stores and warehouses, making it an essential tool for businesses looking to streamline their supply chain and improve operational workflows.</p>
                             <Spacing lg='10' md='10' />
-                            <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
                         </SectionHeading>
                     </Div>
                 </Div>

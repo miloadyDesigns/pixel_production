@@ -16,7 +16,7 @@ export default function ContactInfoWidget({ withIcon, title }) {
         </li>
         <li>
           {withIcon ? <span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span> : ''}
-          5900 Balcones Dr #7463 <br /> Austin, TX 78731, USA
+           Austin, TX 78731, USA
         </li>
       </ul>
     </>
