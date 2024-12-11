@@ -7,7 +7,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg4 from '../../../public/images/Why-choose-us.png'
+import aboutImg4 from '../../../public/images/Why-choose-us-1.png'
 import { useSideHeader } from "@/utils/SideHeaderToggle";
 import { useEffect, useRef } from "react";
 import gsap from 'gsap';
@@ -204,7 +204,7 @@ export default function AboutPage() {
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-6">
-            <Div className=" cs-style1 ">
+            <Div className="cs-image_layer cs-style1 ">
               <Div className="cs-image_layer_in">
                 <Image
                   src={aboutImg4}

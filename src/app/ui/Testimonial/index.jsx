@@ -27,7 +27,7 @@ export default function Testimonial({
           }}
         />
       </Div>
-      <h2 className="cs-testimonial_avatar_name">{avatarName}</h2>
+      <h3 className="cs-testimonial_avatar_name">{avatarName}</h3>
       <Div className="cs-testimonial_avatar_designation text-uppercase">
         {avatarDesignation}
       </Div>

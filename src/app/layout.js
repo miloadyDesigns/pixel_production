@@ -1,5 +1,3 @@
-"use client";
-import { useState, useEffect } from 'react';
 import Header from '@/app/ui/Header';
 import CustomCursor from '@/app/ui/CustomCursor';
 import Footer from '@/app/ui/Footer/index';
@@ -7,11 +5,23 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './scss/index.scss';
 import { Poppins, Open_Sans } from 'next/font/google';
-import Head from 'next/head';
 import "./globals.css"
-import { SideHeaderProvider, useSideHeader } from '@/utils/SideHeaderToggle';
-
-
+import { SideHeaderProvider } from '@/utils/SideHeaderToggle';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
+import Script from "next/script";
+export const metadata = {
+  title: {
+    template: "%s - PixelBrainDesign",
+    default: "Transforming Your Digital Vision into Reality"
+  },
+  description: "Pixel Brain Designs offers innovative design solutions for businesses. Creative web design, branding, and digital marketing services.",
+  keywords: "Creative web design services, Affordable branding solutions, Small business digital marketing, Custom logo design near me, Web design for startups, SEO-friendly website design, Local web design services, Affordable graphic design services, Custom website design for businesses, Digital branding",
+  verification: {
+    other: {
+      "google-site-verification": "i3ejs3Wk2ap16Czz_ovWXnG8YQ4SE2WXOfiRUMuxP-Y",
+    },
+  },
+};
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
@@ -30,117 +40,67 @@ const RootLayout = ({ children }) => {
   );
 };
 const InnerLayout = ({ children }) => {
-  const { title } = useSideHeader();
-
-  useEffect(() => {
-    document.title = title;
-  }, [title]);
+  const jsonLd = {
+    "@context": "https://schema.org/",
+    "@type": "LocalBusiness",
+    "name": "Pixel Brain Designs",
+    "address": "Austin, TX 78731, USA",
+    "image": "https://pixelbraindesigns.com/_next/image?url=%2Fimages%2FpixelLogo.png&w=256&q=75",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "120",
+      "reviewCount": "50"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "validFrom": "2001-09-30T19:00:00.000Z",
+      "validThrough": "2001-09-30T19:00:00.000Z",
+      "opens": "10:00",
+      "closes": "01:00",
+      "dayOfWeek": [
+        "Monday"
+      ]
+    },
+    "telephone": "512-616-6176",
+    "priceRange": "",
+    "menu": "https://pixelbraindesigns.com/portfolio, https://pixelbraindesigns.com/portfolio , https://pixelbraindesigns.com/app-evolution, https://pixelbraindesigns.com/beyound-apps",
+    "servesCuisine": "",
+    "url": "https://pixelbraindesigns.com/"
+  }
 
   return (
     <html lang="en">
-      <Head>
-        <title>{title} - PixelBrainDesign</title>
-        <meta property="og:title" content={title} key="title" />
-        <meta name="description" content="Elevate your brand with expert Android, iOS, & Web App Development, SEO, PPC, Social Media Marketing, Video Animations & more at PixelBrain Designs!" />
-        <meta name="keywords" content="App Development
-              Mobile App Development,
-              Web Development,
-              SEO Services,
-              Social Media Marketing,
-              Branding & Design,
-              Digital Marketing,
-              Video Animations,
-              PPC Advertising,
-              Database Development,
-              Mobile app solutions,
-              Custom web applications,
-              App maintenance services,
-              Search Engine Optimization (SEO) strategies,
-              Online branding services,
-              Digital marketing strategy,
-              Web design and development,
-              User-friendly mobile apps,
-              Business app development,
-              Video marketing animations,
-              Web development in New York,
-              Web development in Los Angeles,
-              Web development in Chicago,
-              Web development in Miami,
-              Web development in San Francisco,
-              Web development in Dallas,
-              Web development in Seattle,
-              Web development in Houston,
-              Web development in Austin,
-              Web development in Boston,
-              Graphic design in New York,
-              Graphic design in Los Angeles,
-              Graphic design in San Francisco,
-              Graphic design in Chicago,
-              Graphic design in Miami,
-              Graphic design in Dallas,
-              Graphic design in Seattle,
-              Graphic design in Atlanta,
-              Graphic design in Phoenix,
-              Graphic design in Portland,
-              App development in New York,
-              App development in Los Angeles,
-              App development in Chicago,
-              App development in Miami,
-              App development in San Francisco,
-              App development in Seattle,
-              App development in Houston,
-              App development in Dallas,
-              App development in Austin,
-              App development in Washington DC,
-              Marketing services in New York,
-              Marketing services in Los Angeles,
-              Marketing services in Chicago,
-              Marketing services in Miami,
-              Marketing services in San Francisco,
-              Marketing services in Atlanta,
-              Marketing services in Houston,
-              Marketing services in Austin,
-              Marketing services in Seattle,
-              Marketing services in Boston,
-              Video animation in New York,
-              Video animation in Los Angeles,
-              Video animation in Chicago,
-              Video animation in Miami,
-              Video animation in San Francisco,
-              Video animation in Dallas,
-              Video animation in Seattle,
-              Video animation in Atlanta,
-              Video animation in Austin,
-              Video animation in Washington DC" />
-        <meta name="google-site-verification" content="i3ejs3Wk2ap16Czz_ovWXnG8YQ4SE2WXOfiRUMuxP-Y" />
-        <link rel="icon" href="/images/favicon.ico" sizes="any" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMRHF3NMNH"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-DMRHF3NMNH');
-            `,
-          }}
-        />
-      </Head>
-      <body className={`${openSans.variable} ${poppins.variable}`}>
+      <head>
+        <meta name="robots" content="index, follow" />
+        {/* Canonical Tag */}
+        <link rel="canonical" href="https://pixelbraindesigns.com/" />
+        {/* Author Meta Tag */}
+        <meta name="author" content="PixelBrainDesigns" />
+        {/* Publisher Meta Tag */}
+        <meta name="publisher" content="PixelBrainDesigns" />
+      </head>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
+      <body className={``}>
         <Header />
         <CustomCursor />
         {children}
         <Footer />
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59N55WVZ"
+          height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
       </body>
+      <GoogleAnalytics gaId='G-DMRHF3NMNH' />
+      <GoogleTagManager gtmId="GTM-59N55WVZ" />
     </html>
   );
 };
 
 export default RootLayout;
 
-// const metadata = {
-//   title: {
-//     template: "%s - PixelBrainDesign",
-//     default: "Welcome - PixelBrainDesign"
-//   }
-// };
+

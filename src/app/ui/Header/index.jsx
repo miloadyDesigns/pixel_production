@@ -1,5 +1,5 @@
 // Header.js
-'use client';
+'use client'
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Div from '../Div';
@@ -169,14 +169,14 @@ export default function Header({ variant }) {
             />
           </Link>
           <Div className="cs-side_header_box pb-3">
-            <h2 className="cs-side_header_heading">
+            <p className="cs-side_header_heading">
               Have an idea you want to explore?  <br /> We’d love to collaborate!.
-            </h2>
+            </p>
           </Div>
           <Div className="cs-side_header_box">
-            <h2 className="cs-side_header_heading pb-4 font-semibold">
+            <p className="cs-side_header_heading pb-4 font-semibold">
               Send a Message
-            </h2>
+            </p>
             <div className=''>
               <div className=''>
                 <form action="#" className="row">

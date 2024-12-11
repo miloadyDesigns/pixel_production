@@ -73,7 +73,7 @@ export default function FunFact({ variant, title, subtitle, data }) {
                   <span className="cs-accent_color">+</span>
                 </Div>
               </Div>
-              <h1 className='text-xl'>{item.title}</h1>
+              <h3 className='text-xl'>{item.title}</h3>
             </div>
 
           ))}

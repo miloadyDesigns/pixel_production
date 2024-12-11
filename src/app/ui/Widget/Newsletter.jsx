@@ -4,7 +4,7 @@ import Div from '../Div'
 export default function Newsletter({title, subtitle, placeholder}) {
   return (
     <>
-      {title && <h2 className="cs-widget_title">{title}</h2>}
+      {title && <p className="cs-widget_title">{title}</p>}
       <Div className="cs-newsletter cs-style1">
         <form action="#" className="cs-newsletter_form">
           <input type="email" className="cs-newsletter_input" placeholder={placeholder} />
